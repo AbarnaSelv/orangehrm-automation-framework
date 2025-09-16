@@ -29,7 +29,7 @@ It also supports **cross-browser execution**, **data-driven testing using Excel*
 - BDD Tool: Cucumber
 - Design Pattern: Page Object Model (POM)
 - Data Handling: Excel (Apache POI)
-- CI/CD: Jenkins
+- Jenkins
 - Reports: Cucumber HTML Reports, TestNG Reports
 
 ---
@@ -55,6 +55,17 @@ It also supports **cross-browser execution**, **data-driven testing using Excel*
 
 - pom.xml → Maven dependencies
 - README.md → Project documentation
+
+---
+
+## Jenkins CI/CD Integration
+
+The project has been integrated with Jenkins for Continuous Integration. The latest build ran successfully:
+
+![Jenkins Build Status](https://drive.google.com/file/d/1F6NbiGVfiu_uK3zuK4KOVpgMN2SRVY8M/view?usp=sharing)
+
+You can also view the Jenkins job (if public) here:  
+[Jenkins Job Link](http://localhost:8080/job/Selenium-Maven-CI-CD/)
 
 ---
 
@@ -91,7 +102,7 @@ mvn test -Dcucumber.filter.tags="@PIM"
 
 ---
 
-## 🚀 Jenkins CI/CD Integration
+## 🚀 Jenkins Integration
 1. Install Jenkins and configure:
    - JDK
    - Maven
