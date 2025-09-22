@@ -58,9 +58,10 @@ It also supports **cross-browser execution**, **data-driven testing using Excel*
 
 ---
 
-## Jenkins CI/CD Integration
+## Jenkins Integration
 
 The project has been integrated with Jenkins for Continuous Integration. The latest build ran successfully:
+
 
 ![Jenkins Build Status](https://drive.google.com/file/d/1F6NbiGVfiu_uK3zuK4KOVpgMN2SRVY8M/view?usp=sharing)
 
