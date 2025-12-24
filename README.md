@@ -69,7 +69,7 @@ The project has been integrated with Jenkins for Continuous Integration. The lat
 
 ![Jenkins Build Status](https://drive.google.com/uc?export=view&id=1F6NbiGVfiu_uK3zuK4KOVpgMN2SRVY8M)
 
-You can also view the Jenkins job (if public) here:  
+You can also view the Jenkins job here:  
 [Jenkins Job Link](http://localhost:8080/job/Selenium-Maven-CI-CD/)
 
 ---
