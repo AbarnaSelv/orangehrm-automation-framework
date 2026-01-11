@@ -65,7 +65,8 @@ It also supports **Excel-based data-driven testing**, and **Free-Style Jenkins E
 The project has been integrated with Jenkins. The latest build ran successfully:
 
 
-[Jenkins Build Screenshot](https://drive.google.com/file/d/ID/view?usp=sharing)
+![Jenkins Build Screenshot](https://drive.google.com/uc?export=view&id=1TIpwO9WnkknqVe-iYPCRcoyfmYPVxePd)
+
 
 
 You can also view the Jenkins job here:  
