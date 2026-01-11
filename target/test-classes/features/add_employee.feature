@@ -9,5 +9,5 @@ Feature: Add Employee
 
     Examples:
       | first   | last    |
-      | Abarna  | Sharfaras  |
-      | Appu    | Sharu   |
+      | Vadivu  | Selvam  |
+      | Selvam    | Ganapathi   |

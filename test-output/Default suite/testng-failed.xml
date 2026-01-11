@@ -6,8 +6,8 @@
       <class name="com.automation.framework.runner.TestRunner">
         <methods>
           <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="3"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="4"/>
         </methods>
       </class> <!-- com.automation.framework.runner.TestRunner -->
     </classes>

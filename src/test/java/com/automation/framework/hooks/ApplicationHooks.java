@@ -7,14 +7,14 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
 public class ApplicationHooks {
-    private WebDriver driver;
-    @Before
-    public void beforeScenario() {
-        String browser = ConfigReader.get("browser");
-        driver = DriverFactory.initDriver(browser);
-    }
-    @After
-    public void afterScenario() {
-        DriverFactory.quitDriver();
-    }
+	private WebDriver driver;
+	@Before
+	public void beforeScenario() {
+		String browser = ConfigReader.get("browser");
+		driver = DriverFactory.initDriver(browser);
+	}
+	@After
+	public void afterScenario() {
+		DriverFactory.quitDriver();
+	}
 }

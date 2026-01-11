@@ -8,11 +8,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverFactory {
-    private static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
+    private static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>(); //ThreadLocal container
 
     public static WebDriver initDriver(String browser) {
-        if (browser == null || browser.isEmpty()) browser = ConfigReader.get("browser");
-        if (browser == null) browser = "chrome";
+        if (browser == null || browser.isEmpty()) {
+        	browser = ConfigReader.get("browser");
+        }
+        if (browser == null) {
+        	browser = "chrome";
+        }
         if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
             tlDriver.set(new ChromeDriver());
@@ -30,7 +34,7 @@ public class DriverFactory {
     }
 
     public static WebDriver getDriver() {
-        return tlDriver.get();
+        return tlDriver.get(); //Returns the actual WebDriver for current thread
     }
 
     public static void quitDriver() {

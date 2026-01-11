@@ -22,7 +22,7 @@ public class ConfigReader {
     public static String get(String key) {
         return prop.getProperty(key);
     }
-    public static int getInt(String key, int defaultVal) {
+    public static int getInt(String key, int defaultVal) { // here defaultValue is for what if key value doesn't exists in the 'config.properties' {
         try {
             return Integer.parseInt(prop.getProperty(key));
         } catch (Exception e) {
