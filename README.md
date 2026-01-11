@@ -65,7 +65,8 @@ It also supports **Excel-based data-driven testing**, and **Free-Style Jenkins E
 The project has been integrated with Jenkins. The latest build ran successfully:
 
 
-![Jenkins Build Status](https://drive.google.com/file/d/1TIpwO9WnkknqVe-iYPCRcoyfmYPVxePd/view?usp=sharing)
+[Jenkins Build Screenshot](https://drive.google.com/file/d/ID/view?usp=sharing)
+
 
 You can also view the Jenkins job here:  
 [Jenkins Job Link](http://localhost:8080/job/Automation_Maven_Project/)
