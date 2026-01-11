@@ -7,20 +7,19 @@ This project is an **advanced data-driven automation testing framework** built f
 It focuses on automating **end-to-end HRMS workflows**, including **login** and **employee management (PIM module)**, based on real-world scenarios commonly handled in enterprise automation projects.
 
 The framework is implemented using **Java**, **Selenium WebDriver**, **Cucumber (BDD)**, and **TestNG**, and follows the **Page Object Model (POM)** to ensure clean structure, maintainability, and scalability.  
-It also supports **cross-browser execution**, **Excel-based data-driven testing**, and **CI/CD integration using Jenkins** for continuous automation execution.
+It also supports **Excel-based data-driven testing**, and **Free-Style Jenkins Execution** for continuous automation execution.
 
 ---
 
 ## Features
 
-- Login automation using valid and invalid credentials  
+- Login automation with the default credential for the selected page  
 - Add Employee automation under the PIM module with dynamic Employee ID validation  
 - Data-driven testing using Excel and Cucumber Scenario Outlines  
 - BDD implementation with Cucumber for readable test scenarios  
-- Cross-browser execution on Chrome, Edge, and Firefox  
 - Advanced reporting using Cucumber HTML reports and TestNG reports  
 - Hooks for pre and post conditions, including screenshot capture on failure  
-- Jenkins CI/CD integration for automated build and test execution  
+- Jenkins Free-Style Project Execution
 
 ---
 
@@ -33,7 +32,7 @@ It also supports **cross-browser execution**, **Excel-based data-driven testing*
 - **BDD Tool**: Cucumber  
 - **Design Pattern**: Page Object Model (POM)  
 - **Data Handling**: Excel using Apache POI  
-- **CI/CD**: Jenkins  
+- **Free-Style Project**: Jenkins  
 - **Reports**: Cucumber HTML Reports, TestNG Reports  
 
 ---
@@ -53,7 +52,6 @@ It also supports **cross-browser execution**, **Excel-based data-driven testing*
   - runners → TestNG/Cucumber Runner classes
 
 - src/test/resources/features
-  - login.feature
   - add_employee.feature
   - add_employees_from_excel.feature
 
@@ -64,18 +62,18 @@ It also supports **cross-browser execution**, **Excel-based data-driven testing*
 
 ## Jenkins Integration
 
-The project has been integrated with Jenkins for Continuous Integration. The latest build ran successfully:
+The project has been integrated with Jenkins. The latest build ran successfully:
 
 
-![Jenkins Build Status](https://drive.google.com/uc?export=view&id=1F6NbiGVfiu_uK3zuK4KOVpgMN2SRVY8M)
+![Jenkins Build Status](https://drive.google.com/file/d/1TIpwO9WnkknqVe-iYPCRcoyfmYPVxePd/view?usp=sharing)
 
 You can also view the Jenkins job here:  
-[Jenkins Job Link](http://localhost:8080/job/Selenium-Maven-CI-CD/)
+[Jenkins Job Link](http://localhost:8080/job/Automation_Maven_Project/)
 
 ---
 
 ## Execution Video  
-[Click here to watch the execution video](https://drive.google.com/file/d/16kH-SRCMYlqkKMYVl-wklua5_0RjrSjK/view?usp=sharing )  
+[Click here to watch the execution video](https://drive.google.com/file/d/1y1MEbt-f3RY1ZWymAWl-3R2dXtWnUQ0_/view?usp=sharing)  
 
 ---
 
@@ -87,7 +85,7 @@ Execution screenshots are included inside the repository under the `Project_Demo
 ## Summary
 
 This framework represents a **professional-level Selenium automation setup** suitable for enterprise applications.  
-It combines **BDD**, **data-driven testing**, **cross-browser support**, and **CI/CD integration**, making it a strong example of scalable and maintainable automation design.
+It combines **BDD**, **data-driven testing**, and **Jenkins Execution**, making it a strong example of scalable and maintainable automation design.
 
 The project is structured to closely reflect real-time automation practices used in modern QA teams.
 
